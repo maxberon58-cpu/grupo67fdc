@@ -1,5 +1,3 @@
-# grupo67fdc
-Grupo de FDC
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -75,17 +73,19 @@ Grupo de FDC
   </section>
 
   <section>
-    <h2>3. Comparación con otro juego</h2>
-    <p>Para comparar, tomamos <strong>Fortnite</strong>, otro juego popular en streaming:</p>
+    <h2>3. Comparación con otros juegos</h2>
+    <p>Para analizar la elección de <strong>Minecraft</strong>, lo comparamos con otros dos juegos populares en streaming: <strong>Fortnite</strong> y <strong>League of Legends</strong>.</p>
     <ul>
-      <li><strong>Minecraft:</strong> más liviano, accesible, puede correr en PCs de gama media-baja.</li>
-      <li><strong>Fortnite:</strong> exige más GPU y CPU, necesita al menos una GTX 960 o superior para 60 FPS.</li>
+      <li><strong>Minecraft:</strong> Sandbox creativo, requiere equipo de gama media. Popularidad enorme en YouTube y Twitch.</li>
+      <li><strong>Fortnite:</strong> Shooter competitivo, más demandante gráficamente (GPU GTX 960 o superior para 60 FPS). Exige buena conexión a internet.</li>
+      <li><strong>League of Legends:</strong> MOBA muy liviano, corre en PCs básicas (CPU i3 + 4 GB RAM). Extremadamente popular en streaming, pero menos exigente.</li>
     </ul>
-    <p>Conclusión: Minecraft es más inclusivo y económico para comenzar en el mundo del streaming.</p>
+    <p><strong>Conclusión:</strong> Minecraft es un punto medio: más accesible que Fortnite y más atractivo visualmente que LoL, siendo una excelente opción para iniciar en streaming con presupuesto estudiantil.</p>
   </section>
 
   <footer>
-    <p>Primer commit — Carátula, juego elegido, requisitos y comparación inicial.</p>
+    <p>Primer commit — Carátula, juego elegido, requisitos y comparación con 2 juegos.</p>
   </footer>
 </body>
 </html>
+
