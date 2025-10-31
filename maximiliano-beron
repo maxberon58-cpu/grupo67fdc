@@ -1,0 +1,260 @@
+<section>
+  <h2>4. Propuesta de equipo – Presupuesto (Beron Maximiliano)</h2>
+  <p><strong>Tipo:</strong> PC de escritorio para streaming de Minecraft en 1080p.</p>
+
+  <h3>Presupuesto real (tiendas argentinas)</h3>
+  <ul>
+    <li><strong>CPU:</strong> AMD Ryzen 5 5600G — $175.000 ARS (CompraGamer)</li>
+    <li><strong>GPU:</strong> NVIDIA GTX 1660 Super — $280.000 ARS (Venex)</li>
+    <li><strong>Motherboard:</strong> MSI B550M PRO — $135.000 ARS (CompraGamer)</li>
+    <li><strong>RAM:</strong> 16 GB DDR4 3200 MHz (2x8) — $80.000 ARS (CompraGamer)</li>
+    <li><strong>SSD:</strong> Kingston NV2 500 GB NVMe — $60.000 ARS (Venex)</li>
+    <li><strong>Fuente:</strong> 650W 80+ Bronze — $55.000 ARS (CompraGamer)</li>
+    <li><strong>Gabinete:</strong> Mid Tower con ventilación — $45.000 ARS (Venex)</li>
+  </ul>
+  <p><strong>Total estimado:</strong> ~ $830.000 ARS (~900 USD).</p>
+
+  <h3>Rendimiento esperado</h3>
+  <ul>
+    <li>Minecraft 1080p sin shaders → 120 FPS promedio.</li>
+    <li>Con shaders/mods → 70–90 FPS.</li>
+    <li>Streaming en OBS Studio → 1080p 60 FPS estable usando NVENC.</li>
+  </ul>
+
+  <h3>Interacción con IA</h3>
+  <p><strong>Prompt usado:</strong><br>
+  "¿Qué procesador es mejor para streamear Minecraft con presupuesto limitado: Ryzen 5 5600G o Intel i5-12400?"</p>
+
+  <p><strong>Respuesta IA (resumen):</strong><br>
+  El i5-12400 ofrece un poco más de rendimiento en gaming puro, pero el Ryzen 5 5600G es más económico, tiene buen rendimiento en streaming y gráficos integrados útiles.</p>
+
+  <p><strong>Reflexión (Beron Maximiliano):</strong><br>
+  Elegí el Ryzen 5 5600G porque en Argentina tiene mejor relación precio/rendimiento. Además, al tener gráficos integrados sirve como respaldo si la GPU falla. El i5-12400 es superior en potencia, pero su costo total (con motherboard compatible) supera el presupuesto.</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3er commit
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Trabajo Práctico N°1 - Streaming de videojuegos (Minecraft)</title>
+</head>
+<body>
+  <header>
+    <h1>Trabajo Práctico N°1</h1>
+    <h2>Fundamentos de Computación</h2>
+    <h3>Tema: Streaming de videojuegos — Juego elegido: Minecraft</h3>
+  </header>
+
+  <section>
+    <h2>Carátula</h2>
+    <p><strong>Universidad:</strong> Universidad Autónoma de Entre Ríos</p>
+    <p><strong>Facultad:</strong> Facultad de Ciencia y Tecnología</p>
+    <p><strong>Carrera:</strong> Licenciatura en Sistemas</p>
+    <p><strong>Cátedra:</strong> Fundamentos de Computación</p>
+    <p><strong>Trabajo Práctico:</strong> N°1 – Streaming de videojuegos</p>
+    <p><strong>Profesores:</strong> Bioing. Ismael Cassi; Lic. Paolo Orundés Cardinali</p>
+    <p><strong>Integrantes del grupo:</strong> Violeta Larrosa, Beron Maximiliano, Alejo Ferreira</p>
+    <p><strong>Comisión:</strong> Viernes 17hs</p>
+    <p><strong>Fecha de entrega:</strong> 31 de octubre de 2025</p>
+    <p><strong>Año lectivo:</strong> 2025</p>
+  </section>
+
+  <section>
+    <h2>1. Descripción del videojuego</h2>
+    <p><strong>Minecraft</strong> es un juego sandbox de construcción y supervivencia lanzado en 2011 por Mojang. Permite a los jugadores crear, explorar y sobrevivir en mundos generados de manera procedural. Es uno de los juegos más populares en plataformas de streaming como Twitch y YouTube.</p>
+    <p><img src="img/minecraft.png" alt="Captura de Minecraft"></p>
+  </section>
+
+  <section>
+    <h2>2. Requisitos técnicos de Minecraft</h2>
+    <table border="1" cellpadding="5" cellspacing="0">
+      <tr>
+        <th>Componente</th>
+        <th>Mínimos</th>
+        <th>Recomendados</th>
+      </tr>
+      <tr>
+        <td>Sistema operativo</td>
+        <td>Windows 10 (64-bit)</td>
+        <td>Windows 10/11 (64-bit)</td>
+      </tr>
+      <tr>
+        <td>Procesador (CPU)</td>
+        <td>Intel Core i3-3210 / AMD A8-7600</td>
+        <td>Intel Core i5-4690 / AMD Ryzen 5</td>
+      </tr>
+      <tr>
+        <td>Memoria RAM</td>
+        <td>4 GB</td>
+        <td>8 GB o más</td>
+      </tr>
+      <tr>
+        <td>Gráficos (GPU)</td>
+        <td>Intel HD 4000 / Radeon R5</td>
+        <td>NVIDIA GTX 1050 / Radeon RX 560</td>
+      </tr>
+      <tr>
+        <td>Almacenamiento</td>
+        <td>1 GB libre</td>
+        <td>SSD con al menos 4 GB libres</td>
+      </tr>
+      <tr>
+        <td>Conexión a Internet</td>
+        <td>Banda ancha</td>
+        <td>Fibra óptica o ADSL simétrico (≥ 6 Mbps de subida)</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>3. Comparación con otro juego</h2>
+    <p>Para comparar, tomamos <strong>Fortnite</strong>, otro juego popular en streaming:</p>
+    <ul>
+      <li><strong>Minecraft:</strong> más liviano, accesible, puede correr en PCs de gama media-baja.</li>
+      <li><strong>Fortnite:</strong> exige más GPU y CPU, necesita al menos una GTX 960 o superior para 60 FPS.</li>
+    </ul>
+    <p>Conclusión: Minecraft es más inclusivo y económico para comenzar en el mundo del streaming.</p>
+  </section>
+
+  <section>
+    <h2>4. Propuesta de equipos – Presupuestos individuales</h2>
+
+    <article>
+      <h3>Presupuesto – Beron Maximiliano</h3>
+      <ul>
+        <li>CPU: AMD Ryzen 5 5600G — $175.000 ARS</li>
+        <li>GPU: NVIDIA GTX 1660 Super — $280.000 ARS</li>
+        <li>Motherboard: MSI B550M PRO — $135.000 ARS</li>
+        <li>RAM: 16 GB DDR4 3200 MHz — $80.000 ARS</li>
+        <li>SSD: Kingston NV2 500 GB — $60.000 ARS</li>
+        <li>Fuente: 650W 80+ Bronze — $55.000 ARS</li>
+        <li>Gabinete: Mid Tower ventilado — $45.000 ARS</li>
+      </ul>
+      <p>Total estimado: $830.000 ARS (~900 USD).</p>
+      <p>Reflexión IA: Elegí el Ryzen 5 5600G porque en Argentina ofrece mejor precio/rendimiento. El i5-12400 es superior, pero más caro y requiere motherboard más costosa.</p>
+    </article>
+
+    <article>
+      <h3>Presupuesto – Violeta Larrosa</h3>
+      <ul>
+        <li>CPU: Intel Core i5-12400F — $210.000 ARS</li>
+        <li>GPU: NVIDIA RTX 3050 — $310.000 ARS</li>
+        <li>Motherboard: ASUS B660M — $145.000 ARS</li>
+        <li>RAM: 16 GB DDR4 3200 MHz — $82.000 ARS</li>
+        <li>SSD: Crucial P3 500 GB NVMe — $65.000 ARS</li>
+        <li>Fuente: 650W 80+ Bronze — $55.000 ARS</li>
+        <li>Gabinete: Mid Tower — $47.000 ARS</li>
+      </ul>
+      <p>Total estimado: $914.000 ARS (~980 USD).</p>
+      <p>Reflexión IA: Elegí el i5-12400F porque tiene excelente rendimiento en juegos y streaming. Lo descartaría si el presupuesto fuera muy ajustado, porque sube el costo de motherboard y GPU.</p>
+    </article>
+
+    <article>
+      <h3>Presupuesto – Alejo Ferreira</h3>
+      <ul>
+        <li>CPU: AMD Ryzen 5 5600 — $190.000 ARS</li>
+        <li>GPU: Radeon RX 6600 — $295.000 ARS</li>
+        <li>Motherboard: Gigabyte B550M DS3H — $130.000 ARS</li>
+        <li>RAM: 16 GB DDR4 3600 MHz — $85.000 ARS</li>
+        <li>SSD: WD Blue SN570 500 GB NVMe — $62.000 ARS</li>
+        <li>Fuente: 650W 80+ Bronze — $55.000 ARS</li>
+        <li>Gabinete: Mid Tower — $50.000 ARS</li>
+      </ul>
+      <p>Total estimado: $867.000 ARS (~940 USD).</p>
+      <p>Reflexión IA: La combinación Ryzen 5 5600 + RX 6600 me da buen rendimiento en Minecraft y mods pesados. Comparé con GTX 1660 Super, pero la RX 6600 ofrece más FPS por casi el mismo precio.</p>
+    </article>
+  </section>
+
+  <section>
+    <h2>5. Interacciones con IA</h2>
+    <p>Las capturas de las interacciones se encuentran en la carpeta <code>ia_capturas/</code>. Ejemplos de prompts usados:</p>
+    <ul>
+      <li>"¿Qué procesador es mejor para streamear Minecraft con bajo presupuesto?"</li>
+      <li>"Compará una notebook gamer con una PC de escritorio para streaming"</li>
+      <li>"¿Qué bitrate conviene para transmitir en 1080p a 60 FPS?"</li>
+    </ul>
+    <p>Cada integrante agregó una reflexión breve de 5–10 líneas sobre si estaba de acuerdo o no con la IA.</p>
+  </section>
+
+  <section>
+    <h2>6. Tabla comparativa validada</h2>
+    <table border="1" cellpadding="5" cellspacing="0">
+      <tr>
+        <th>Componente</th>
+        <th>AMD Ryzen 5 5600G</th>
+        <th>Intel i5-12400F</th>
+      </tr>
+      <tr>
+        <td>Núcleos / Hilos</td>
+        <td>6 / 12</td>
+        <td>6 / 12</td>
+      </tr>
+      <tr>
+        <td>Frecuencia</td>
+        <td>3.9 – 4.4 GHz</td>
+        <td>2.5 – 4.4 GHz</td>
+      </tr>
+      <tr>
+        <td>Precio en Argentina</td>
+        <td>~ $175.000 ARS</td>
+        <td>~ $210.000 ARS</td>
+      </tr>
+    </table>
+    <p><strong>Validación:</strong> Datos verificados en CompraGamer y Venex. Se eligió el Ryzen por precio, pero el i5 es superior en gaming puro.</p>
+  </section>
+
+  <section>
+    <h2>7. Resumen técnico explicado en lenguaje común</h2>
+    <p><strong>Bitrate (IA):</strong> Es la cantidad de kilobits por segundo que se transmiten en un stream. A mayor bitrate, mejor calidad de imagen, pero se requiere más velocidad de subida.</p>
+    <p><strong>Bitrate (traducción propia):</strong> Es como el caño de agua que transmite tu video. Si es chico, la imagen se ve fea. Si es grande, se ve bien, pero necesitás mejor internet.</p>
+    <p><strong>Latencia (IA):</strong> Es el retraso entre lo que ocurre en el juego y lo que ve la audiencia. Incluye captura, codificación, subida y buffer.</p>
+    <p><strong>Latencia (traducción propia):</strong> Es el tiempo que tarda lo que hacés en el juego en aparecer en la pantalla de los que miran.</p>
+  </section>
+
+  <section>
+    <h2>8. Imagen generada con IA</h2>
+    <p><strong>Prompt:</strong> "Setup gamer económico en Argentina: escritorio con PC de gama media, monitor 1080p, micrófono, auriculares y pantalla mostrando Minecraft."</p>
+    <p><img src="img/stream_setup.png" alt="Setup de streaming"></p>
+  </section>
+
+  <section>
+    <h2>9. Conclusiones finales</h2>
+    <ul>
+      <li>La IA ayudó a comparar hardware y aclarar conceptos técnicos de forma rápida.</li>
+      <li>Se detectaron diferencias de precios entre IA y tiendas argentinas; fue necesario validar manualmente.</li>
+      <li>El trabajo en equipo permitió cubrir distintas alternativas de hardware y justificar cada elección.</li>
+      <li>Se comprobó que para un streaming accesible y de buena calidad, Minecraft es un juego ideal.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>10. Instrucciones de entrega</h2>
+    <ol>
+      <li>Repositorio: <code>grupo_X</code> (GitHub o GitLab).</li>
+      <li>Archivo principal: <code>grupo_X.html</code>.</li>
+      <li>Carpeta <code>img/</code>: imágenes (Minecraft, setup).</li>
+      <li>Carpeta <code>ia_capturas/</code>: capturas de prompts y respuestas.</li>
+      <li>Archivo <code>README.md</code>: breve guía de visualización.</li>
+    </ol>
+  </section>
+
+  <footer>
+    <p>Entrega final — 3er commit (31/10/2025). Grupo integrado por Violeta Larrosa, Beron Maximiliano y Alejo Ferreira.</p>
+  </footer>
+</body>
+</html>
